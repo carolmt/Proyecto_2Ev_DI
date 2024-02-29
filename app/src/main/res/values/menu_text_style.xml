@@ -1,0 +1,8 @@
+<resources>
+    <style name="MenuTextStyle">
+
+        <item name="android:fontFamily">@font/cattedralee</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+</resources>

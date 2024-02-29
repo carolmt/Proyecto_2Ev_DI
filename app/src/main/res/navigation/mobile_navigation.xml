@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation.xml"
+    app:startDestination="@id/nav_zapatos">
+
+    <fragment
+        android:id="@+id/nav_zapatos"
+        android:name="com.example.proyecto_final_di.fragments.nav_zapatos"
+        android:label="Zapatos"
+        tools:layout="@layout/fragment_nav_zapatos"
+        android:textAppearance="@style/MenuTextStyle" />
+    <fragment
+        android:id="@+id/nav_bolsos"
+        android:name="com.example.proyecto_final_di.fragments.nav_bolsos"
+        android:label="Bolsos"
+        tools:layout="@layout/fragment_nav_bolsos"
+        android:textAppearance="@style/MenuTextStyle" />
+    <fragment
+        android:id="@+id/nav_bisuteria"
+        android:name="com.example.proyecto_final_di.fragments.nav_bisuteria"
+        android:label="Bisuteria"
+        tools:layout="@layout/fragment_nav_bisuteria"
+        android:textAppearance="@style/MenuTextStyle" />
+    <fragment
+        android:id="@+id/nav_cinturones"
+        android:name="com.example.proyecto_final_di.fragments.nav_cinturones"
+        android:label="Cinturones"
+        tools:layout="@layout/fragment_nav_cinturones"
+        android:textAppearance="@style/MenuTextStyle" />
+</navigation>
